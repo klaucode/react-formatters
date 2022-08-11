@@ -1,0 +1,1 @@
+declare function FormatterCurrency(value:number, decimals?:number);

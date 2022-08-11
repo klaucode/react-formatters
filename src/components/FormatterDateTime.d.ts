@@ -1,0 +1,1 @@
+declare function FormatterDateTime(value:Date, format?:string);

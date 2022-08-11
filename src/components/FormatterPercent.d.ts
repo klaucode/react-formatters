@@ -1,0 +1,1 @@
+declare function FormatterPercent(percent?:number, numeric?:number, decimals?:number);

@@ -1,0 +1,1 @@
+declare function FormatterStringUppercase(value:string);

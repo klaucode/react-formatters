@@ -1,0 +1,1 @@
+declare function FormatterStringCapitalize(value:string);

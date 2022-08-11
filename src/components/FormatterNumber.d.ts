@@ -1,0 +1,1 @@
+declare function FormatterNumber(value:number, decimals?:number);
