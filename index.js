@@ -1,6 +1,6 @@
 import Formatters from "./src/formatters.js";
 
-export FormatterBytes from "./src/components/FormatterBytes";
+import FormatterBytes from "./src/components/FormatterBytes";
 import FormatterCurrency from "./src/components/FormatterCurrency";
 import FormatterDate from "./src/components/FormatterDate";
 import FormatterDateTime from "./src/components/FormatterDateTime";

@@ -1,7 +1,7 @@
 {
   "name": "react-formatters",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Tiny React package to format values of various data types.",
   "main": "index.js",
   "scripts": {
