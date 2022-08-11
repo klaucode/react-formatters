@@ -52,4 +52,4 @@ const Formatters = () => ({
     }
 });
 
-export default Formatters;
+export default Formatters();
