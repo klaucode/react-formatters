@@ -1,10 +1,25 @@
-export Formatters from './src/formatters';
+import Formatters from "./src/formatters.js";
+
 export FormatterBytes from "./src/components/FormatterBytes";
-export FormatterCurrency from "./src/components/FormatterCurrency";
-export FormatterDate from "./src/components/FormatterDate";
-export FormatterDateTime from "./src/components/FormatterDateTime";
-export FormatterNumber from "./src/components/FormatterNumber";
-export FormatterPercent from "./src/components/FormatterPercent";
-export FormatterStringCapitalize from "./src/components/FormatterStringCapitalize";
-export FormatterStringLowercase from "./src/components/FormatterStringLowercase";
-export FormatterStringUppercase from "./src/components/FormatterStringUppercase";
+import FormatterCurrency from "./src/components/FormatterCurrency";
+import FormatterDate from "./src/components/FormatterDate";
+import FormatterDateTime from "./src/components/FormatterDateTime";
+import FormatterNumber from "./src/components/FormatterNumber";
+import FormatterPercent from "./src/components/FormatterPercent";
+import FormatterStringCapitalize from "./src/components/FormatterStringCapitalize";
+import FormatterStringLowercase from "./src/components/FormatterStringLowercase";
+import FormatterStringUppercase from "./src/components/FormatterStringUppercase";
+
+export {
+    FormatterBytes,
+    FormatterCurrency,
+    FormatterDate,
+    FormatterDateTime,
+    FormatterNumber,
+    FormatterPercent,
+    FormatterStringCapitalize,
+    FormatterStringLowercase,
+    FormatterStringUppercase
+};
+
+export default Formatters;
